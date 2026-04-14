@@ -55,10 +55,13 @@ ai-intrusion-detection-system/
 │
 ├── data/
 │   ├── raw/
+|   ├── sample/
 │   └── processed/
 │
 ├── notebooks/
-│   └── exploration.ipynb
+|   ├── 01_data_exploration.ipynb
+|   ├── 02_preprocessing.ipynb
+│   └── 03_model_experiments.ipynb
 │
 ├── src/
 │   ├── preprocess.py
@@ -75,7 +78,15 @@ ai-intrusion-detection-system/
 │   ├── figures/
 │   ├── metrics/
 │   └── reports/
+|
+├── scripts/
+|   ├── run_app.py
+|   └── run_training.py
+|
+├── tests/
+|   ├── test_features.py
+|   ├── test_predict.py
+|   └── test_preprocess.py
 │
 └── docs/
-    ├── proposal/
-    └── report/
+    └── proposal
