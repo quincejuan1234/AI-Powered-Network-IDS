@@ -64,9 +64,13 @@ ai-intrusion-detection-system/
 │   └── 03_model_experiments.ipynb
 │
 ├── src/
+|   ├── __init__.py
+|   ├── config.py
+|   ├── features.py
 │   ├── preprocess.py
 │   ├── train.py
 │   ├── evaluate.py
+|   ├── utils.py
 │   └── predict.py
 │
 ├── app/
