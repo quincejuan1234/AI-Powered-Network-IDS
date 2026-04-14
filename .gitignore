@@ -1,0 +1,68 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE/editor files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment/config secrets
+.env
+.env.*
+*.local
+
+# Logs
+*.log
+
+# Dataset files
+data/raw/*
+data/processed/*
+
+# Keep folder structure
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Trained models
+models/*
+!models/.gitkeep
+
+# Generated outputs
+outputs/figures/*
+outputs/metrics/*
+outputs/reports/*
+!outputs/figures/.gitkeep
+!outputs/metrics/.gitkeep
+!outputs/reports/.gitkeep
+
+# Streamlit cache
+.streamlit/secrets.toml
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Python test/cache tools
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Build/distribution
+build/
+dist/
+*.egg-info/
