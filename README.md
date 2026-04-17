@@ -76,6 +76,8 @@ ai-intrusion-detection-system/
 ├── app/
 │   └── app.py
 │
+├── training/
+│   └── model_training.ipynb
 ├── models/
 │
 ├── outputs/
