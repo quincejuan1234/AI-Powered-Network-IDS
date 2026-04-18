@@ -272,6 +272,9 @@ def show_results(output_dict):
     ttk.Button(scroll_frame, text="☾⋆", command=set_dark).grid(row=0, column=4)
     ttk.Button(scroll_frame, text="☀︎", command=set_light).grid(row=0, column=5)
 
+    section("The provided network data is:", 1.5)
+    section("Benign", 1)
+
     commentOut = '''
     totals = stats["totals"]
     section("Totals", 1.5)
